@@ -12,6 +12,7 @@ body {
 
 .navbar {
     border-bottom: 2px solid #eeff41;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 
@@ -40,8 +41,12 @@ a#contact {
 
 
 
-h2 {
-    color: #4aaaa5;
+.card-title {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.card-text {
+    font-family: 'Varela', sans-serif;
 }
 
 .card {
@@ -51,7 +56,7 @@ h2 {
 }
 
 .photo {
-    width: 40%;
+    width: 30%;
     height: auto;
     float: left;
     margin-top: 10px;
@@ -60,6 +65,7 @@ h2 {
 }
 
 .icon {
+    text-align: center;
     margin: 20px;
 }
 
