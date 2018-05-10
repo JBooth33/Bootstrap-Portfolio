@@ -59,6 +59,8 @@ body {
     border: lightgrey 1px solid;
     text-align: center;
     display: inline-block;
+    overflow-x:hidden;
+    overflow-y:hidden;
   }
 
 
@@ -67,8 +69,12 @@ body {
     height: 100%;
     border: 0 none;
     opacity: 0.8;
-  }
+}
   
+h5.contact-details {
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
   
 footer {
     position: fixed;
