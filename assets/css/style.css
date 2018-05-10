@@ -16,29 +16,10 @@ body {
 }
 
 
-a#tab {
-    margin-left: 15%;
-    text-align: center;
-    width: 20%;
-    min-width: 180px;
-    height: 90px;
-    padding-top: 25px;
-    color: white;
-    font-size: 30px;
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;  
-}
-
-
-a#contact {
-    border: none;
-}
-
 .container {
     padding-left: 10%;
     padding-right: 10%;
 }
-
 
 
 .card-title {
@@ -69,35 +50,25 @@ a#contact {
     margin: 20px;
 }
 
-#message {
-    height: 300px;
-}
-
 .work {
     position: relative;
-    float: left;
-    width: 250px;
-    margin: 20px 0 25px;
+    width: 220px;
+    height: 140px;
+    margin: 20px;
     overflow: auto;
+    border: lightgrey 1px solid;
+    text-align: center;
+    display: inline-block;
   }
 
-.dog {
-    width: 100%;
-    border: 0 none;
-}
 
-.work h3 {
-    position: absolute;
-    bottom: 10px;
+.project img {
     width: 100%;
-    margin-bottom: 0;
-    color: #fff;
-    text-align: center;
-    border-bottom: none;
-    background-color: #4aaaa5;
-    padding: 10px;
-    opacity: 50%;
-}
+    height: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
   
 footer {
     position: fixed;
