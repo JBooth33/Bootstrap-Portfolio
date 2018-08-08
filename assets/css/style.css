@@ -52,9 +52,9 @@ body {
 
 .work {
     position: relative;
-    width: 220px;
-    height: 140px;
-    margin: 20px;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
     overflow: auto;
     border: 1px solid gray;
     text-align: center;
