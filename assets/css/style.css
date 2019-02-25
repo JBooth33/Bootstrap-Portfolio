@@ -8,6 +8,7 @@ body {
     background: url("../images/fog_forest.jpg");
     margin-top: 0px;
     border-top: 3px solid #dddddd;
+    z-index: -1;
 }  
 
 .navbar {
